@@ -8,11 +8,12 @@
 
 ## O template
 
-> Não altere o arquivo build.gradle
-
 > O código java estará (ou você terá que colocar) no diretório **/src/main/java/**
 
-> Os testes estarão na classe Asserts no diretório **/src/main/java/**
+> Os testes estão nas classes ContaMenoresAsserts e HeapifyAsserts.
+
+    javac ContaMenoresAsserts.java ; java -ea ContaMenoresAsserts
+    javac HeapifyAsserts.java ; java -ea HeapifyAsserts
 
 > Não mude nenhuma assinatura de método, nome de classe ou localização dos arquivos. Mas você pode/deve criar outros métodos e classes, desde que passem nos testes.
 
